@@ -79,21 +79,25 @@ var books = ["Of Mice and Men", "Ulysses", "Don Quixote", "The Great Gatsby", "M
 
 // Write the code to access the 3rd element of the Array, using bracket
 // notation.
-
+books[2]
 
 // Create a new variable "belowTwoHundred" and assign it to an Array of 12
 // different numbers below two hundred.
-
+var belowTwoHundred = [56, 89, 43, 8, 78, 12, 167, 123, 56, 199, 1, 34]
 
 // Write the code to access the 5th element of the array, using bracket notation.
-
+belowTwoHundred[4]
 
 //------------------------- Objects -------------------------//
 
 // Create a new variable "dictionary" and assign to it an object literal with two
 // keys: name, and hasThesaurus. The value for name should the string 'Webster's', and
 // the value for hasThesaurus should be false
-
+var dictionary = {
+    name: "Webster's",
+    hasThesaurus: false
+}
 
 // Write the code to add the key of pageCount, with the value of 720. Use dot
 // notation to do this. DO NOT modify your code from above.
+dictionary.pageCount = 720
