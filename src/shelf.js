@@ -20,9 +20,17 @@ function shelfBook(book, shelfName) {
     return titles.join(', ')
   }
 
-  function searchShelf() {
 
+  
+  function searchShelf(shelfName, title) {
+  for (var i = 0; i < shelfName.length; i++) {
+    if (shelfName[i].title === title) {
+     return true 
+    } 
+    }
+    return false
   }
+  
 module.exports = {
   shelfBook,
   unshelfBook,
